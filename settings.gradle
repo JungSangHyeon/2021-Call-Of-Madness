@@ -1,0 +1,2 @@
+rootProject.name = "Call Of Madness"
+include ':app'
