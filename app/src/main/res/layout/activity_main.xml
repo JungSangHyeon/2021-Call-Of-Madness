@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <SeekBar
-        android:id="@+id/mainActivity_numberSelectSeekBar"
+        android:id="@+id/number_select_seek_bar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -21,13 +21,13 @@
         app:layout_constraintVertical_bias="0.70" />
 
     <TextView
-        android:id="@+id/mainActivity_nowSelectedNumberTextView"
+        android:id="@+id/now_selected_number_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="010-0000-0000"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/mainActivity_numberSelectSeekBar"
+        app:layout_constraintBottom_toTopOf="@+id/number_select_seek_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:text="010-0000-0000"
-        app:layout_constraintBottom_toTopOf="@+id/mainActivity_numberSelectSeekBar"
+        app:layout_constraintBottom_toTopOf="@+id/number_select_seek_bar"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -46,11 +46,11 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:text="010-9999-9999"
-        app:layout_constraintBottom_toTopOf="@+id/mainActivity_numberSelectSeekBar"
+        app:layout_constraintBottom_toTopOf="@+id/number_select_seek_bar"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/mainActivity_callButton"
+        android:id="@+id/call_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -58,7 +58,7 @@
         android:drawableLeft="@drawable/ic_baseline_call_24"
         android:text="Call"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainActivity_numberSelectSeekBar" />
+        app:layout_constraintTop_toBottomOf="@+id/number_select_seek_bar" />
 
     <ImageView
         android:id="@+id/imageView"
